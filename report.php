@@ -6,4 +6,4 @@ if($data === false || strlen($data) < 1)
 }
 $id = json_decode($data)->tournamentMetaData->passbackDataPacket;
 file_put_contents("reports/".$id.".txt", $data);
-echo "OK report ".$id.".txt.<br/>";
+echo "OK report ".$id.".txt.<br />\n";

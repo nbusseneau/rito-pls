@@ -16,7 +16,7 @@
         $json = json_decode(file_get_contents($filename, FALSE));
         $report = json_encode($json, JSON_PRETTY_PRINT);
         echo "<h1>".$filename."</h1>\n";
-        echo "<pre>".$report."</pre>";
+        echo "<pre>".$report."</pre>\n";
     }
     ?>
   </body>

@@ -15,4 +15,4 @@ $options = array(
 $context = stream_context_create($options);
 $result = file_get_contents("http://skymirrh.net/insalan/report.php", false, $context);
 echo $result;
-echo "OK testInput.<br/>";
+echo "OK testInput.<br />\n";
